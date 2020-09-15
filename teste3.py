@@ -1,0 +1,8 @@
+a, a1, a2 = input().split()
+b, b1, b2 = input().split()
+b1 = int(a1)
+b2 = float(b2)
+a1 = int(a1)
+a2 = float(a2)
+soma = ((a1*a2)+(b1*b2))
+print('VALOR A PAGAR: R$ %.2F'% soma)
